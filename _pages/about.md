@@ -76,7 +76,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 <div class='paper-box'><div class='paper-box-image'><div>
 <div class="badge-container">
     <div class="badge neurips">NeurIPS 2024</div>
-    <div class="badge icml">Best Paper Award at ICML-W'24</div>
+    <!-- <div class="badge icml">Best Paper Award at ICML-W'24</div> -->
 </div>
 <img src='images/self_correction.png' alt="self_correction" width="100%">
 </div></div>
@@ -87,6 +87,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
 
 <!-- [**Paper**](https://openreview.net/pdf?id=OtvNLTWYww) -->
+- <span style="color: red">Best Paper Award at ICML 2024 Workshop on In-context Learning</span>
 - I established the first rigorous understanding of LLMs' self-correction ability and developed a simple and efficient self-correction algorithm (CaC) that shows significant improvements across different tasks.
 </div>
 </div>
