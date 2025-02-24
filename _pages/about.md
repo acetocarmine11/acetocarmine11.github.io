@@ -21,7 +21,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 
 <!-- You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
-<span style="color: #f4b400">I am currently looking for 2025 summer internship opportunities.</span>
+<span style="color: #f4b400">I am currently looking for 2025 summer internship opportunities!!!</span>
 
 # 🔥 News
 - *2025.02*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is now available on arXiv!
@@ -33,6 +33,23 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 (*: Equal Contribution)
 
 <style>
+.badge-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
 .badge.neurips {
     background-color: #4285f4;
     color: white;
@@ -56,7 +73,13 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge neurips">NeurIPS 2024</div><div class="badge icml">Best Paper Award at ICML-W'24</div><img src='images/self_correction.png' alt="self_correction" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge-container">
+    <div class="badge neurips">NeurIPS 2024</div>
+    <div class="badge icml">Best Paper Award at ICML-W'24</div>
+</div>
+<img src='images/self_correction.png' alt="self_correction" width="100%">
+</div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Theoretical Understanding of Self-Correction through In-context Alignment](https://openreview.net/pdf?id=OtvNLTWYww)

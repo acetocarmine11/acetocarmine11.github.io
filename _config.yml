@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yuyang Wu"
-# description              : "I am deeply fascinated by the development of human-like intelligent agents, with a particular focus on understanding and interpreting their behavior to enhance model control and optimize performance."
+description              : "Junior Student at School of Electronics Engineering and Computer Science, Peking University."
 repository               : "acetocarmine11/acetocarmine11.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuyang Wu"
   avatar           : "images/avatar.jpg"
-  bio              : "Junior Student at School of Electronics Engineering and Computer Science, Peking University."
+  bio              : ""
   location         : "Beijing, China"
   email            : "wuyuyang@stu.pku.edu.cn"
   github           : "acetocarmine11"
