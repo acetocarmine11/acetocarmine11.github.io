@@ -97,7 +97,7 @@ Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
 - *2021.12* Silver Medal, Chinese Mathematical Olympiad
 
 # 📖 Education
-- *2022.09 - Present*, \textbf{Peking University}, BS in Computer Science\end{twocolentry}
+- *2022.09 - Present*, **Peking University**, BS in Computer Science
 
 # 💻 Research Experience
 - *2023.10 - Present*, Research Intern at ZERO Lab, Peking University
