@@ -28,7 +28,9 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2024</div><img src='images/cot_length.png' alt="cot_length" width="100%"></div></div>
+(*: Equal Contribution)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/cot_length.png' alt="cot_length" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When More is Less: Understanding Chain-of-Thought Length in LLMs](https://arxiv.org/abs/2502.07266v1)
@@ -41,7 +43,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/self_correction.png' alt="self_correction" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><div class="badge">Best Paper Award at ICML-W'24</div><img src='images/self_correction.png' alt="self_correction" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Theoretical Understanding of Self-Correction through In-context Alignment](https://openreview.net/pdf?id=OtvNLTWYww)
@@ -49,17 +51,16 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
 
 [**Paper**](https://openreview.net/pdf?id=OtvNLTWYww)
-- Best Paper Award at ICML 2024 Workshop on In-context Learning
 - I established the first rigorous understanding of LLMs' self-correction ability and developed a simple and efficient self-correction algorithm (CaC) that shows significant improvements across different tasks.
 </div>
 </div>
 
 # 🎖 Honors and Awards
-- *2024.02* Best Paper Award at ICML 2024 Workshop on In-context Learning
+- *2024.02* <span style="color: red">Best Paper Award at ICML 2024 Workshop on In-context Learning</span>
 - *2022* Silver Medal, Chinese Mathematical Olympiad
 
 # 📖 Education
-- *2022.09 - Present*, Undergraduate Student in Computer Science, Peking University
+- *2022.09 - Present*, Junior Student at School of Electronics Engineering and Computer Science, Peking University
 
 # 💻 Research Experience
 - *2023.10 - Present*, Research Intern at ZERO Lab, Peking University

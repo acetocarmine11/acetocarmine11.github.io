@@ -23,40 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuyang Wu"
   avatar           : "images/avatar.jpg"
-  bio              : "Undergraduate Student at Peking University"
+  bio              : "Junior Student at School of Electronics Engineering and Computer Science, Peking University"
   location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ"
   email            : "wuyuyang@stu.pku.edu.cn"
-  researchgate     :  
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "acetocarmine11"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : 
-  lastfm           :
-  linkedin         : 
-  dblp             : 
-  orcid            : 
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ"
 
 
 # Reading Files
