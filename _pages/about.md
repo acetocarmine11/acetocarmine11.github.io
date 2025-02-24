@@ -28,6 +28,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
 - *2024.06*: &nbsp;🏆 "A Theoretical Understanding of Self-Correction through In-context Alignment" received the <span style="color: red">Best Paper Award</span> at ICML Workshop on In-context Learning!
+
 # 📝 Publications 
 
 (*: Equal Contribution)
