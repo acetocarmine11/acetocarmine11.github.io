@@ -61,7 +61,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 }
 </style>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICR-W'25</div><img src='images/cot_length.png' alt="cot_length" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR-W'25</div><img src='images/cot_length.png' alt="cot_length" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When More is Less: Understanding Chain-of-Thought Length in LLMs](https://arxiv.org/abs/2502.07266v1)
