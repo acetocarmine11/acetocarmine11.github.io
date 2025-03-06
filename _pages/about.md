@@ -24,7 +24,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 <span style="color: #f4b400">I am currently looking for 2025 summer internship opportunities!!!</span>
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is now available on arXiv!
+- *2025.03*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is accepted to ICLR 2025 Workshop on Reasoning and Planning for Large Language Models!
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
 - *2024.06*: &nbsp;🏆 "A Theoretical Understanding of Self-Correction through In-context Alignment" received the <span style="color: red">Best Paper Award</span> at ICML Workshop on In-context Learning!
@@ -61,7 +61,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 }
 </style>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/cot_length.png' alt="cot_length" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICR-W'25</div><img src='images/cot_length.png' alt="cot_length" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When More is Less: Understanding Chain-of-Thought Length in LLMs](https://arxiv.org/abs/2502.07266v1)
