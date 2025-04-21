@@ -26,7 +26,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 <span style="color: #4285f4">I will attend ICLR 2025, feel free to reach out!</span>
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been selected as an <span style="color: red">Oral presentation</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
+- *2025.04*: &nbsp;🎤 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been selected as an <span style="color: red">Oral presentation</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
 - *2025.03*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is accepted to ICLR 2025 Workshop on Reasoning and Planning for Large Language Models!
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
