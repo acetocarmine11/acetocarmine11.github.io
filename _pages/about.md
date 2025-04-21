@@ -22,10 +22,11 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 <!-- You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 <span style="color: #f4b400">I am currently looking for 2026 fall PhD opportunities!!!</span>
+
 <span style="color: #4285f4">I will attend ICLR 2025, feel free to reach out!</span>
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been selected as an Oral presentation at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
+- *2025.04*: &nbsp;🎉 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been selected as an <span style="color: red">Oral presentation</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
 - *2025.03*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is accepted to ICLR 2025 Workshop on Reasoning and Planning for Large Language Models!
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
@@ -107,6 +108,10 @@ Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
 - *2023.10 - Present*, Research Intern at ZERO Lab, Peking University
   - Researching the in-context abilities in LLMs, including self-correction and chain-of-thought.
   - Collaborating with Postdoc [Yifei Wang (MIT)](https://yifeiwang77.com) and advised by Prof. [Yisen Wang (PKU)](https://yisenwang.github.io)
+
+- *2025.3 - Present*, Research Intern at Sky Computing Lab, UC Berkeley
+  - Researching on meta-reasoning ability in LLMs.
+  - Collaborating with [Dacheng Li](https://dachengli1.github.io) and advised by Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 
 # 💪 Skills
 - **Programming Languages**: Python(proficient), C++(proficient), C#, Core Skills (Git/Linux/TeX/etc.)
