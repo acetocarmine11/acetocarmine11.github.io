@@ -21,9 +21,11 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 
 <!-- You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
-<span style="color: #f4b400">I am currently looking for 2025 summer internship opportunities!!!</span>
+<span style="color: #f4b400">I am currently looking for 2026 fall PhD opportunities!!!</span>
+<span style="color: #4285f4">I will attend ICLR 2025, feel free to reach out!</span>
 
 # 🔥 News
+- *2025.04*: &nbsp;🎉 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been selected as an Oral presentation at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
 - *2025.03*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is accepted to ICLR 2025 Workshop on Reasoning and Planning for Large Language Models!
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
@@ -69,6 +71,7 @@ I am a junior student at School of Electronics Engineering and Computer Science,
 **Yuyang Wu\***, Yifei Wang\*, Tianqi Du, Stefanie Jegelka, Yisen Wang
 
 <!-- [**Paper**](https://arxiv.org/abs/2502.07266v1) -->
+- <span style="color: red">Oral presentation at ICLR 2025 Workshop on Reasoning and Planning for LLMs</span>
 - I mathematically model the CoT process as a task decomposition and subtask-solving procedure and demonstrate that a longer CoT is not necessarily better.
 - Additionally, I conduct both synthetic and real-world experiments, revealing a U-shaped curve and the scaling behavior of the optimal CoT length.
 </div>
