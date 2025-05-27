@@ -70,9 +70,8 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 **Yuyang Wu\***, Yifei Wang\*, Tianqi Du, Stefanie Jegelka, Yisen Wang
 
 <!-- [**Paper**](https://arxiv.org/abs/2502.07266v1) -->
-- <span style="color: red">Oral presentation at ICLR 2025 Workshop on Reasoning and Planning for LLMs</span>
-- I mathematically model the CoT process as a task decomposition and subtask-solving procedure and demonstrate that a longer CoT is not necessarily better.
-- Additionally, I conduct both synthetic and real-world experiments, revealing a U-shaped curve and the scaling behavior of the optimal CoT length.
+- <span style="color: red">Best Paper Runner-Up Award at ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.</span>
+- We revealed two counterintuitive findings: longer CoTs are not always better, and during reinforcement learning, models exhibit a **simplicity bias**, converging to the shortest CoT they can effectively manage.
 </div>
 </div>
 
@@ -96,7 +95,8 @@ Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
 </div>
 
 # 🎖 Honors and Awards
-- *2024.06* <span style="color: red">Best Paper Award at ICML 2024 Workshop on In-context Learning</span>
+- *2025.04* Best Paper Runner-up Award at ICLR 2025 Workshop on Reasoning and Planning for LLMs
+- *2024.06* Best Paper Award at ICML 2024 Workshop on In-context Learning
 - *2021.12* Silver Medal, Chinese Mathematical Olympiad
 
 # 🎤 Talks
