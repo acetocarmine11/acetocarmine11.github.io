@@ -17,17 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a junior student at School of Electronics Engineering and Computer Science, Peking University. My research interests lie in the development of human-like intelligent agents, with a particular focus on understanding and interpreting their behavior to enhance model control and optimize performance. While my prior work has predominantly been rooted in theoretical research, I am equally passionate about exploring the engineering aspects, aiming to bridge the gap between theoretical advancements and practical implementations to drive more robust, efficient, and human-aligned AI systems.
+My research interest lies in developing a mathematical understanding of LLMs, interpreting their diverse behaviors, and providing principled theoretical guidance for the design and optimization of system-2 reasoning agents. Specifically, my approach involves expanding reasoning boundaries, e.g. enabling effective long-context reasoning and precise multi-round backtracking, and calibrating reasoning skills into practical experience via reinforcement learning in the post-training stage.
+You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-<!-- You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
+<span style="color: #f4b400">I am currently looking for 2025 summer intern opportunities!!!</span>
 
-<span style="color: #f4b400">I am currently looking for 2026 fall PhD opportunities!!!</span>
-
-<span style="color: #4285f4">I will attend ICLR 2025, feel free to reach out!</span>
 
 # 🔥 News
-- *2025.04*: &nbsp;🎤 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been selected as an <span style="color: red">Oral presentation</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
-- *2025.03*: &nbsp;🎉 Our paper "When More is Less: Understanding Chain-of-Thought Length in LLMs" is accepted to ICLR 2025 Workshop on Reasoning and Planning for Large Language Models!
+- *2025.04*: &nbsp;🎉 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been awarded the <span style="color: red">Best Paper Runner-up Award</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
+- *2025.04*: &nbsp;🎤 I will present an oral talk on our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
 - *2024.06*: &nbsp;🏆 "A Theoretical Understanding of Self-Correction through In-context Alignment" received the <span style="color: red">Best Paper Award</span> at ICML Workshop on In-context Learning!
@@ -101,6 +99,9 @@ Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
 - *2024.06* <span style="color: red">Best Paper Award at ICML 2024 Workshop on In-context Learning</span>
 - *2021.12* Silver Medal, Chinese Mathematical Olympiad
 
+# 🎤 Talks
+- *2025.04* "When More is Less: Understanding Chain-of-Thought Length in LLMs", Oral presentation at ICLR 2025 Workshop on Reasoning and Planning for Large Language Models, Singapore
+
 # 📖 Education
 - *2022.09 - Present*, **Peking University**, BS in Computer Science
 
@@ -109,7 +110,7 @@ Yifei Wang\*, **Yuyang Wu\***, Zeming Wei, Stefanie Jegelka, Yisen Wang
   - Researching the in-context abilities in LLMs, including self-correction and chain-of-thought.
   - Collaborating with Postdoc [Yifei Wang (MIT)](https://yifeiwang77.com) and advised by Prof. [Yisen Wang (PKU)](https://yisenwang.github.io)
 
-- *2025.3 - Present*, Research Intern at Sky Computing Lab, UC Berkeley
+- *2025.3 - 2025.6 (terminated due to non-academic political reasons)*, Research Intern at Sky Computing Lab, UC Berkeley 
   - Researching on meta-reasoning ability in LLMs.
   - Collaborating with [Dacheng Li](https://dachengli1.github.io) and advised by Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/)
 
