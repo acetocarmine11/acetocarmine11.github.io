@@ -65,7 +65,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR-W'25</div><img src='images/cot_poster.png' alt="cot_poster" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[When More is Less: Understanding Chain-of-Thought Length in LLMs](https://arxiv.org/abs/2502.07266v1)
+[When More is Less: Understanding Chain-of-Thought Length in LLMs](https://arxiv.org/abs/2502.07266)
 
 **Yuyang Wu\***, Yifei Wang\*, Tianqi Du, Stefanie Jegelka, Yisen Wang
 
