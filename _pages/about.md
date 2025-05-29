@@ -24,7 +24,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been awarded the <span style="color: red">Best Paper Runner-up Award</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
+- *2025.04*: &nbsp;🏆 Our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" has been awarded the <span style="color: red">Best Paper Runner-up Award</span> at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
 - *2025.04*: &nbsp;🎤 I will present an oral talk on our recent work "When More is Less: Understanding Chain-of-Thought Length in LLMs" at ICLR 2025 Workshop on Reasoning and Planning for LLMs!
 - *2024.12*: &nbsp;🍁 I attended NuerIPS 2024 at Vancouver and illustrated our poster.
 - *2024.10*: &nbsp;🎉 Our paper "A Theoretical Understanding of Self-Correction through In-context Alignment" has been accepted to **NeurIPS 2024**!
