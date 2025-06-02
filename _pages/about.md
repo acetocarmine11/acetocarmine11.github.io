@@ -67,9 +67,9 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 
 [When More is Less: Understanding Chain-of-Thought Length in LLMs](https://arxiv.org/abs/2502.07266)
 
-**Yuyang Wu\***, Yifei Wang\*, Tianqi Du, Stefanie Jegelka, Yisen Wang
+**Yuyang Wu\***, Yifei Wang\*, Ziyu Ye, Tianqi Du, Stefanie Jegelka, Yisen Wang
 
-<!-- [**Paper**](https://arxiv.org/abs/2502.07266v1) -->
+<!-- [**Paper**](https://arxiv.org/abs/2502.07266) -->
 - <span style="color: red">Best Paper Runner-Up Award at ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.</span>
 - We revealed two counterintuitive findings: longer CoTs are not always better, and during reinforcement learning, models exhibit a **simplicity bias**, converging to the shortest CoT they can effectively manage.
 </div>
