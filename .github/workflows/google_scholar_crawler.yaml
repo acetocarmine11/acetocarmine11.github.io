@@ -8,22 +8,126 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # 设置整个job的超时时间
     steps:
     - uses: actions/checkout@v4
-    - name: Install Reqs
+      with:
+        fetch-depth: 0  # 获取完整的Git历史
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: System Information
       run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+        echo "🖥️  系统信息:"
+        echo "  - 操作系统: $(uname -a)"
+        echo "  - Python版本: $(python --version)"
+        echo "  - 时间: $(date)"
+        echo "  - 网络接口:"
+        ip addr show | grep inet || true
+    
+    - name: Network Diagnostics
       run: |
+        echo "🌐 网络诊断:"
+        echo "  - 测试DNS解析..."
+        nslookup scholar.google.com || echo "DNS解析失败"
+        echo "  - 测试连通性..."
+        ping -c 3 8.8.8.8 || echo "网络连通性测试失败"
+        echo "  - 测试HTTPS连接..."
+        curl -I https://scholar.google.com --connect-timeout 10 || echo "HTTPS连接测试失败"
+    
+    - name: Install dependencies
+      run: |
+        echo "📦 安装Python依赖..."
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        python -m pip install --upgrade pip
+        echo "📋 requirements.txt内容:"
+        cat requirements.txt
+        echo "🔧 开始安装依赖..."
+        pip install -r requirements.txt --verbose
+        echo "✅ 依赖安装完成"
+    
+    - name: Verify Installation
+      run: |
+        echo "🔍 验证安装..."
+        cd ./google_scholar_crawler
+        python -c "import scholarly; print('✅ scholarly库导入成功')"
+        python -c "import fake_useragent; print('✅ fake_useragent库导入成功')"
+        python -c "import jsonpickle; print('✅ jsonpickle库导入成功')"
+    
+    - name: Run Google Scholar crawler
+      timeout-minutes: 20  # 设置爬虫运行的超时时间
+      run: |
+        echo "🚀 开始运行Google Scholar爬虫..."
+        cd ./google_scholar_crawler
+        
+        # 设置调试模式
+        export PYTHONUNBUFFERED=1
+        export PYTHONIOENCODING=utf-8
+        
+        # 运行爬虫并捕获输出
+        python main.py 2>&1 | tee crawler_output.log
+        
+        echo "📊 爬虫运行完成，检查输出文件..."
+        if [ -f "results/gs_data.json" ]; then
+          echo "✅ gs_data.json 文件已生成"
+          echo "📄 文件大小: $(wc -c < results/gs_data.json) bytes"
+        else
+          echo "❌ gs_data.json 文件未生成"
+          exit 1
+        fi
+        
+        if [ -f "results/gs_data_shieldsio.json" ]; then
+          echo "✅ gs_data_shieldsio.json 文件已生成"
+          cat results/gs_data_shieldsio.json
+        else
+          echo "❌ gs_data_shieldsio.json 文件未生成"
+        fi
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+    
+    - name: Upload crawler logs (on failure)
+      if: failure()
+      uses: actions/upload-artifact@v3
+      with:
+        name: crawler-logs
+        path: |
+          google_scholar_crawler/crawler_output.log
+          google_scholar_crawler/results/
+    
+    - name: Commit and push results
+      run: |
+        echo "📤 准备提交和推送结果..."
+        cd ./google_scholar_crawler/results
+        
+        # 检查是否有文件生成
+        if [ ! -f "gs_data.json" ]; then
+          echo "❌ 没有数据文件生成，退出..."
+          exit 1
+        fi
+        
+        echo "📋 生成的文件列表:"
+        ls -la
+        
+        # 配置Git
+        git config --global user.name "${GITHUB_ACTOR}"
+        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        
+        # 初始化Git仓库并添加文件
+        git init
+        git add *.json
+        
+        # 检查是否有变更
+        if git diff --staged --quiet; then
+          echo "📝 没有变更需要提交"
+          exit 0
+        fi
+        
+        echo "📤 提交变更并推送到google-scholar-stats分支..."
+        # 提交并推送到google-scholar-stats分支
+        git commit -m "Updated Citation Data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git remote add origin "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git push origin HEAD:google-scholar-stats --force
+        echo "✅ 数据已成功推送到google-scholar-stats分支"
