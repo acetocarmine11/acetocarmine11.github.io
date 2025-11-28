@@ -17,10 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interest lies in developing a mathematical understanding of LLMs, interpreting their diverse behaviors, and providing principled theoretical guidance for the design and optimization of system-2 reasoning agents. Specifically, my approach involves expanding reasoning boundaries, e.g. enabling effective long-context reasoning and precise multi-round backtracking, and calibrating reasoning skills into practical experience via reinforcement learning in the post-training stage.
+My research interest lies in developing a mathematical understanding of LLMs, interpreting their diverse behaviors, and providing principled theoretical guidance for the design and optimization of system-2 reasoning agents.
+
+Currently, my work is centered on enhancing the reasoning capabilities of LLMs from two primary perspectives: more precise data selection and the exploration of broader inference structures.
 You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-<span style="color: #f4b400">I am currently looking for 2025 summer intern opportunities!!!</span>
+<span style="color: #f4b400">I am actively seeking PhD opportunities for Fall 2026!!!</span>
 
 
 # 🔥 News
@@ -70,7 +72,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 **Yuyang Wu\***, Yifei Wang\*, Ziyu Ye, Tianqi Du, Stefanie Jegelka, Yisen Wang
 
 <!-- [**Paper**](https://arxiv.org/abs/2502.07266) -->
-- <span style="color: red">Best Paper Runner-Up Award at ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.</span>
+- <span style="color: red">Best Paper Runner-Up Award at ICLR 2025 Workshop on Reasoning and Planning for Large Language Models.（Cited 100+ times）</span>
 - We revealed two counterintuitive findings: longer CoTs are not always better, and during reinforcement learning, models exhibit a **simplicity bias**, converging to the shortest CoT they can effectively manage.
 </div>
 </div>
