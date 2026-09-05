@@ -55,7 +55,13 @@
         display: flex;
         width: 100%;
         order: 2;
+        .paper-visual {
+            width: 100%;
+            max-width: 400px;
+        }
         img {
+            display: block;
+            width: 100%;
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
@@ -87,6 +93,49 @@
 
 }
 
+.venue-badge {
+    --venue-accent: #e85d3f;
+    --venue-accent-soft: rgba(232, 93, 63, 0.16);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0 0 0.75rem;
+    padding: 0.42rem 0.7rem;
+    border: 1px solid #dfe5ee;
+    border-radius: 999px;
+    color: #273142;
+    background: linear-gradient(135deg, #ffffff 0%, #f4f7fb 100%);
+    box-shadow: 0 2px 8px rgba(31, 42, 55, 0.1);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.035em;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.venue-badge__mark {
+    width: 0.48rem;
+    height: 0.48rem;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: var(--venue-accent);
+    box-shadow: 0 0 0 3px var(--venue-accent-soft);
+}
+
+.venue-badge__year {
+    margin-left: 0.1rem;
+    padding-left: 0.48rem;
+    border-left: 1px solid #d7dee8;
+    color: #6b7280;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.venue-badge--neurips {
+    --venue-accent: #4f63d8;
+    --venue-accent-soft: rgba(79, 99, 216, 0.16);
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
@@ -95,15 +144,4 @@ h1:before, .anchor:before {
     width: 0; 
     height: $scroll_offset; 
     margin-top: -$scroll_offset;
-}
-
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
 }
