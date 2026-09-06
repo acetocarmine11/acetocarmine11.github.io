@@ -17,9 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research focuses on developing a mathematical understanding of LLMs, interpreting their diverse behaviors, and deriving principled guidance for the design and optimization of System 2 reasoning agents.
+My long-term goal is to contribute to progress toward artificial superintelligence. I study how large language models reason and use context. My approach is to use theory to formalize intuitions and explain empirical behavior, then translate these insights into better methods and practical guidance. My work examines when and how LLMs can self-correct, what determines optimal reasoning length, and how rotary position embeddings (RoPE) shape long-context behavior.
 
-My current work aims to improve LLM reasoning in two directions: more precise data selection and richer inference-time structures.
+Drawing on machine learning fundamentals, I am also interested in principled data selection and adaptive compute allocation: which data a model can learn from most effectively, and where additional computation is most useful.
+
 You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 <span style="color: #f4b400">I am actively seeking PhD opportunities for Fall 2027.</span>
