@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My long-term goal is to contribute to progress toward artificial superintelligence. I study how large language models reason and use context. My approach is to use theory to formalize intuitions and explain empirical behavior, then translate these insights into better methods and practical guidance. My work examines when and how LLMs can self-correct, what determines optimal reasoning length, and how rotary position embeddings (RoPE) shape long-context behavior.
+I aim to contribute to progress toward ASI by understanding and improving LLM foundation models and agents. My guiding research principle is to use theory to formalize intuitions, explain empirical behavior, and inform model design and applications. My research explains how LLMs improve themselves, what determines optimal CoT length, and the role of RoPE in long-context modeling.
 
-Drawing on machine learning fundamentals, I am also interested in principled data selection and adaptive compute allocation: which data a model can learn from most effectively, and where additional computation is most useful.
+I am also interested in agentic context management and adaptive-depth looped Transformers, drawing on machine learning fundamentals to improve how models learn and reason.
 
 You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
