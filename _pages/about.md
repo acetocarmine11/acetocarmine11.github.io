@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I aim to contribute to progress toward ASI by understanding and improving LLM foundation models and agents. My guiding research principle is to use theory to formalize intuitions, explain empirical behavior, and inform model design and applications. My research explains how LLMs improve themselves, what determines optimal CoT length, and the role of RoPE in long-context modeling.
+I hope to contribute to progress toward human-like AI systems that can adapt and optimize their own behavior by understanding and improving LLM foundation models and agents. My guiding research principle is to use theory to formalize intuitions, explain empirical behavior, and inform model design and applications. My research explains how LLMs improve themselves, what determines optimal CoT length, and the role of RoPE in long-context modeling.
 
 I am also interested in agentic context management and adaptive-depth looped Transformers, drawing on machine learning fundamentals to improve how models learn and reason.
 
