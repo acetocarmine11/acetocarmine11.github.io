@@ -51,7 +51,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 
 [**Code**](https://github.com/acetocarmine11/rope-profiler)
 
-- We quantified RoPE's tradeoff between **semantic stability and positional sensitivity** and introduced **RoPE Profiler**, a lightweight diagnostic toolkit that guides targeted frequency rescaling to improve long-context performance without additional training.
+- We quantified RoPE's tradeoff between **semantic stability and positional sensitivity** and introduced **RoPE Profiler**, a lightweight diagnostic toolkit that guides targeted frequency rescaling to improve long-context performance without additional training. Try `pip install rope-profiler`.
 </div>
 </div>
 
