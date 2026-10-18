@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I hope to contribute to progress toward human-like AI systems that can adapt and optimize their own behavior by understanding and improving LLM foundation models and agents. My guiding research principle is to use theory to formalize intuitions, explain empirical behavior, and inform model design and applications. My research explains how LLMs improve themselves, what determines optimal CoT length, and the role of RoPE in long-context modeling.
-
-I am also interested in agentic context management and adaptive-depth looped Transformers, drawing on machine learning fundamentals to improve how models learn and reason.
+My research follows a **theory-to-practice** paradigm to investigate how foundation models can utilize context **more effectively** *(in-context reasoning)* and **more extensively** *(long-context modeling)*. My principle is to leverage **rigorous mathematical theory to explain empirical intuitions**, **characterize model capabilities**, and **diagnose fundamental bottlenecks** through **controlled experiments**. Building on these findings, I derive **adaptive choices and actionable designs** in **data selection, inference algorithms, and model design** to unlock the full potential of Large Language Models.
 
 You can find my publications on <a href='https://scholar.google.com/citations?hl=en&user=f7KQvukAAAAJ'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
