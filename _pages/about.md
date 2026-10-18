@@ -70,7 +70,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 
 <!-- [**Paper**](https://openreview.net/forum?id=6QDFsYxtI1) -->
 - <span style="color: red">Best Paper Runner-Up Award at the ICLR 2025 Workshop on Reasoning and Planning for Large Language Models (200+ citations)</span>
-- We revealed two counterintuitive findings: longer CoTs are not always better, and during reinforcement learning, models exhibit a **simplicity bias**, converging to the shortest effective CoT.
+- We revealed the counterintuitive finding that longer CoTs are not always better and proposed **Length-Filtered Vote** to identify trajectories with the optimal length and aggregate their answers.
 </div>
 </div>
 
