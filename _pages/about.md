@@ -39,6 +39,25 @@ You can find my publications on <a href='https://scholar.google.com/citations?hl
 (* denotes equal contribution.)
 
 <div class='paper-box'><div class='paper-box-image'><div class="paper-visual">
+<div class="venue-badge" aria-label="arXiv preprint 2026">
+    <span class="venue-badge__mark" aria-hidden="true"></span>
+    <span class="venue-badge__name">arXiv</span>
+    <span class="venue-badge__year">2026</span>
+</div>
+<img src='images/rope_poster.png' alt="Figure 1b: rotary frequency dynamics and RoPE's semantic and positional failure modes" width="1800" height="1200"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RoPE at the End of Its Rope? Theory, Diagnosis, and Mitigation of Long-Context Failures](https://arxiv.org/abs/2609.39929)
+
+**Yuyang Wu**, Yufeng Du, Hao Peng
+
+[**Code**](https://github.com/acetocarmine11/rope-profiler)
+
+- We quantified RoPE's tradeoff between **semantic stability and positional sensitivity** and introduced **RoPE Profiler**, a lightweight diagnostic toolkit that guides targeted frequency rescaling to improve long-context performance without additional training.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div class="paper-visual">
 <div class="venue-badge venue-badge--iclr" aria-label="ICLR 2026">
     <span class="venue-badge__mark" aria-hidden="true"></span>
     <span class="venue-badge__name">ICLR</span>
